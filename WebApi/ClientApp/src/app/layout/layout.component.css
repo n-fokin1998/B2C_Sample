@@ -1,0 +1,18 @@
+.header {
+    background-color: #215B7D;
+    font-size: 25px;
+    color: #fff;
+  }
+  .header div {
+    margin: 15px;
+  }
+  .header div:first-child {
+    float: left;
+  }
+  .header div:nth-child(2) {
+    float: right;
+    font-size: 20px;
+  }
+  .header div:nth-child(2):hover {
+    cursor: pointer;
+  }

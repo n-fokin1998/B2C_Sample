@@ -1,0 +1,14 @@
+{
+    "api" : "https://localhost:44309",
+    "auth": {
+        "loginAuthority": "https://testappepam.b2clogin.com/tfp/testappepam.onmicrosoft.com/B2C_1_SignInAndSignUp",
+        "resetPasswordAuthority" : "https://testappepam.b2clogin.com/tfp/testappepam.onmicrosoft.com/B2C_1_PasswordReset",
+        "clientId": "d31e13dc-24d2-4ed6-93b3-ad14e51d63d6",
+        "redirectUri": "http://localhost:4200",
+        "scopes": ["https://testappepam.onmicrosoft.com/read"]
+    },
+    "storageKeys": {
+        "token": "msal.idtoken",
+        "resetPasswordFlag": "resetPassword"
+    }
+}
